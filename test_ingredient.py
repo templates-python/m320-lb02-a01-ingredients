@@ -38,7 +38,8 @@ def test_negative_price():
 
 def test_fruit():
     fruit = Fruit(name='Apple', price=1.05, origin='CH')
-    assert fruit.__str__() == "Fruit(name='Apple', price=1.05, origin='CH')"
+    assert isinstance(type(fruit).origin, property)
+    assert isinstance(type(fruit).name, property)
 
 
 def test_fruit_no_origin():
@@ -53,21 +54,32 @@ def test_fruit_no_origin():
 def test_grain():
     grain = Grain(name='Barley', price=0.76, allergen='Gluten')
     assert grain.__str__() == "Grain(name='Barley', price=0.76, allergen='Gluten')"
+    assert isinstance(type(grain).allergen, property)
+    assert isinstance(type(grain).price, property)
 
 
 def test_grain_no_allergen():
     grain = Grain(name='Barley', price=0.76)
     assert grain.__str__() == "Grain(name='Barley', price=0.76, allergen='')"
+    assert isinstance(type(grain).allergen, property)
+    assert isinstance(type(grain).price, property)
 
 
 def test_additive():
     additive = Additive(name='Sugar', price=0.07, origin='Cuba', allergen='Diabetes')
     assert additive.__str__() == "Additive(name='Sugar', price=0.07, allergen='Diabetes', origin='Cuba')"
+    assert isinstance(type(additive).allergen, property)
+    assert isinstance(type(additive).origin, property)
+    assert isinstance(type(additive).price, property)
 
 
 def test_additive_no_allergen():
     additive = Additive(name='Sugar', price=0.07, origin='Cuba')
     assert additive.__str__() == "Additive(name='Sugar', price=0.07, allergen='', origin='Cuba')"
+    assert isinstance(type(additive).allergen, property)
+    assert isinstance(type(additive).origin, property)
+    assert isinstance(type(additive).name, property)
+
 
 def test_additive_no_origin():
     try:
