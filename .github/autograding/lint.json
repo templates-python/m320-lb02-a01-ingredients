@@ -1,0 +1,10 @@
+{
+  "files": [
+    "additive.py",
+    "fruit.py",
+    "grain.py",
+    "ingredient.py"
+  ],
+  "ignore": [],
+  "max": 4
+}

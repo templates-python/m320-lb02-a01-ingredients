@@ -1,0 +1,98 @@
+[
+  {
+    "name": "test_ingredient",
+    "function": "test_ingredient",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_ingredient_properties",
+    "function": "test_ingredient_properties",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_fruit_missing_name",
+    "function": "test_fruit_missing_name",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_grain_missing_price",
+    "function": "test_grain_missing_price",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_additive_negative_price",
+    "function": "test_additive_negative_price",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_fruit",
+    "function": "test_fruit",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_fruit_no_origin_construct",
+    "function": "test_fruit_no_origin_construct",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_fruit_no_origin_setter",
+    "function": "test_fruit_no_origin_setter",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_grain",
+    "function": "test_grain",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_grain_properties",
+    "function": "test_grain_properties",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_fruit_properties",
+    "function": "test_fruit_properties",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_additive_properties",
+    "function": "test_additive_properties",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_grain_no_allergen",
+    "function": "test_grain_no_allergen",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_additive",
+    "function": "test_additive",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_additive_no_allergen",
+    "function": "test_additive_no_allergen",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_additive_no_origin",
+    "function": "test_additive_no_origin",
+    "timeout": 10,
+    "points": 1
+  }
+]
